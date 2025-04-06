@@ -3,6 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+// Import the Greeting component
+import React from 'react';
+import Greeting from './components/Greeting';
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -28,6 +32,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <Greeting />
     </>
   )
 }
